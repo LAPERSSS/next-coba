@@ -20,7 +20,7 @@ const page = async () => {
       <div className={styles.text}>ppp</div>
       {posts.map((post) => {
         return (
-          <CardList>
+          <CardList key={post.id}>
             <p>{post.id}</p>
             <p>{post.title}</p>
             <p>{post.body}</p>
