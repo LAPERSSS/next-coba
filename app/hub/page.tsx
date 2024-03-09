@@ -8,7 +8,7 @@ const page = () => {
   return (
     <>
       <div>Anjay</div>
-      <img src="/images/cars.jpeg" alt="" />
+      <img src="/images/cars.jpeg" alt="" key={"1"} />
     </>
   );
 };
